@@ -16,11 +16,46 @@ document.querySelectorAll('.site-nav a').forEach((link) => {
 const contactForm = document.querySelector('.contact-form');
 const formStatus = document.querySelector('.form-status');
 
-contactForm.addEventListener('submit', (event) => {
-  event.preventDefault();
-  formStatus.textContent = 'Thank you. We will be in touch soon.';
-  contactForm.reset();
-});
+if (contactForm && formStatus) {
+  contactForm.addEventListener('submit', async (event) => {
+    event.preventDefault();
+
+    const submitButton = contactForm.querySelector('button[type="submit"]');
+    const originalButtonText = submitButton ? submitButton.innerHTML : 'Send enquiry';
+
+    if (submitButton) {
+      submitButton.disabled = true;
+      submitButton.innerHTML = 'Sending...';
+    }
+
+    formStatus.textContent = 'Sending your enquiry...';
+
+    try {
+      const response = await fetch(contactForm.action, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(Object.fromEntries(new FormData(contactForm).entries()))
+      });
+
+      if (!response.ok) {
+        throw new Error('Submission failed');
+      }
+
+      formStatus.textContent = 'Thank you. We will be in touch soon.';
+      contactForm.reset();
+    } catch (error) {
+      formStatus.textContent = 'Something went wrong. Please email Joy.Johnson@phodijoshealthcare.co.uk directly.';
+    } finally {
+      if (submitButton) {
+        submitButton.disabled = false;
+        submitButton.innerHTML = originalButtonText;
+      }
+    }
+  });
+}
 
 const aboutPhoto = document.querySelector('.about-photo');
 if (aboutPhoto) {
