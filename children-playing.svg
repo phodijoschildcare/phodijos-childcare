@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" role="img" aria-labelledby="title desc">
+  <title id="title">Inclusive children playing together</title>
+  <desc id="desc">Five children with different skin tones, hairstyles, bodies and abilities play together in a sunny garden.</desc>
+  <rect width="900" height="540" rx="28" fill="#c9e8f1"/>
+  <circle cx="780" cy="92" r="48" fill="#f8dc87"/>
+  <path d="M0 365 C150 325 260 375 390 350 S650 325 900 365 V540 H0Z" fill="#cdebdc"/>
+  <path d="M0 415 C180 385 270 430 430 402 S700 382 900 420 V540 H0Z" fill="#a9d9b9"/>
+  <path d="M92 360 Q112 280 132 360 M95 322 Q60 292 43 315 M129 310 Q164 270 184 299" fill="none" stroke="#4b846c" stroke-linecap="round" stroke-width="14"/>
+  <path d="M774 382 Q794 295 814 382 M777 337 Q742 305 724 326 M811 325 Q847 286 866 314" fill="none" stroke="#4b846c" stroke-linecap="round" stroke-width="14"/>
+  <path d="M210 330 C270 280 330 280 387 330" fill="none" stroke="#f49a7e" stroke-linecap="round" stroke-width="9"/>
+  <path d="M235 320 Q300 240 365 320" fill="none" stroke="#da795d" stroke-linecap="round" stroke-width="8" stroke-dasharray="2 18"/>
+  <circle cx="208" cy="326" r="8" fill="#da795d"/><circle cx="389" cy="326" r="8" fill="#da795d"/>
+  <!-- child one -->
+  <circle cx="242" cy="236" r="34" fill="#7b4b35"/>
+  <path d="M211 227 Q220 184 245 192 Q280 183 276 230" fill="#252a3b"/>
+  <circle cx="231" cy="238" r="4" fill="#183b59"/><circle cx="254" cy="238" r="4" fill="#183b59"/>
+  <path d="M235 254 Q245 261 255 253" fill="none" stroke="#183b59" stroke-linecap="round" stroke-width="3"/>
+  <path d="M209 280 Q242 263 275 280 L292 366 H192Z" fill="#f49a7e"/>
+  <path d="M215 365 L198 445 M268 365 L286 445" stroke="#183b59" stroke-linecap="round" stroke-width="13"/>
+  <path d="M199 445 L180 445 M286 445 L306 445" stroke="#183b59" stroke-linecap="round" stroke-width="13"/>
+  <path d="M208 293 L168 330 M275 295 L319 330" stroke="#7b4b35" stroke-linecap="round" stroke-width="11"/>
+  <!-- child two with wheelchair -->
+  <circle cx="407" cy="230" r="34" fill="#d59a72"/>
+  <path d="M377 226 Q386 182 416 193 Q443 194 441 231" fill="#5a342a"/>
+  <circle cx="395" cy="235" r="4" fill="#183b59"/><circle cx="418" cy="235" r="4" fill="#183b59"/>
+  <path d="M397 251 Q408 258 418 251" fill="none" stroke="#183b59" stroke-linecap="round" stroke-width="3"/>
+  <path d="M376 280 Q407 263 438 280 L459 355 H359Z" fill="#78b9ce"/>
+  <circle cx="401" cy="405" r="55" fill="none" stroke="#183b59" stroke-width="10"/>
+  <circle cx="401" cy="405" r="9" fill="#183b59"/>
+  <path d="M392 350 L412 380 L444 362 M376 293 L340 330 M438 294 L471 327" fill="none" stroke="#d59a72" stroke-linecap="round" stroke-width="11"/>
+  <!-- child three -->
+  <circle cx="571" cy="224" r="35" fill="#f0bd91"/>
+  <path d="M535 222 Q542 177 574 188 Q608 184 609 225" fill="#d9a33d"/>
+  <circle cx="559" cy="230" r="4" fill="#183b59"/><circle cx="583" cy="230" r="4" fill="#183b59"/>
+  <path d="M560 246 Q571 253 582 246" fill="none" stroke="#183b59" stroke-linecap="round" stroke-width="3"/>
+  <path d="M540 275 Q571 257 603 275 L627 367 H517Z" fill="#f8dc87"/>
+  <path d="M541 365 L518 446 M599 365 L628 446" stroke="#183b59" stroke-linecap="round" stroke-width="13"/>
+  <path d="M518 446 L498 446 M628 446 L648 446" stroke="#183b59" stroke-linecap="round" stroke-width="13"/>
+  <path d="M542 291 L494 330 M601 291 L649 330" stroke="#f0bd91" stroke-linecap="round" stroke-width="11"/>
+  <!-- child four -->
+  <circle cx="690" cy="244" r="32" fill="#a86d4e"/>
+  <path d="M658 237 Q666 199 693 203 Q725 197 724 240" fill="#171c2b"/>
+  <circle cx="678" cy="248" r="4" fill="#183b59"/><circle cx="700" cy="248" r="4" fill="#183b59"/>
+  <path d="M679 262 Q690 269 700 262" fill="none" stroke="#183b59" stroke-linecap="round" stroke-width="3"/>
+  <path d="M661 289 Q690 271 719 289 L743 370 H637Z" fill="#f49a7e"/>
+  <path d="M661 369 L638 447 M718 369 L741 447" stroke="#183b59" stroke-linecap="round" stroke-width="13"/>
+  <path d="M638 447 L618 447 M741 447 L761 447" stroke="#183b59" stroke-linecap="round" stroke-width="13"/>
+  <path d="M662 302 L620 334 M719 302 L759 334" stroke="#a86d4e" stroke-linecap="round" stroke-width="11"/>
+  <!-- ball and flowers -->
+  <circle cx="476" cy="408" r="21" fill="#f49a7e"/><path d="M476 387 V429 M455 408 H497" stroke="#fffdf8" stroke-width="5"/>
+  <circle cx="110" cy="455" r="8" fill="#f49a7e"/><circle cx="129" cy="455" r="8" fill="#f8dc87"/><path d="M119 455 V495" stroke="#4b846c" stroke-width="5"/>
+  <circle cx="820" cy="450" r="8" fill="#f49a7e"/><circle cx="839" cy="450" r="8" fill="#f8dc87"/><path d="M829 450 V490" stroke="#4b846c" stroke-width="5"/>
+</svg>
