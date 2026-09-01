@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://phodijosfoundation.com/sitemap.xml
+Sitemap: https://phodijosfoundation.co.uk/sitemap.xml
 
 # Disallow search engine indexing of internal admin/system files if any
 Disallow: /.git/
