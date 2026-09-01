@@ -1,0 +1,12 @@
+# Robots.txt for Phodijos Childcare
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://phodijosfoundation.com/sitemap.xml
+
+# Disallow search engine indexing of internal admin/system files if any
+Disallow: /.git/
+
+# Crawl delay (optional - tells bots to be respectful)
+Crawl-delay: 1
